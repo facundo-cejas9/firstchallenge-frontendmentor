@@ -1,0 +1,29 @@
+---
+import Card from '../components/Card.astro';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="flex min-h-[95vh]">
+		<main class="m-[auto] p-[1rem] w-[1440px] max-w-[calc(100%-2rem)] ">
+			<div class="flex justify-center">
+				<Card />
+			</div>
+		</main>
+	</div>
+	
+</Layout>
+
+<style>
+	/* main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	} */
+	
+</style>
